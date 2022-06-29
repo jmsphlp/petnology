@@ -1,0 +1,220 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+#title {
+  background-color: #3f588f;
+  color: white;
+}
+
+.title-image {
+  width: 100%;
+}
+.title-icon {
+  height: 50px;
+  border-radius: 100%;
+  margin-right: 10px;
+  background-color: #fff;
+}
+#title h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+#title h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+#title .social-icon {
+  margin: 10px 10px;
+  background-color: #3f588f;
+  color: #fff;
+}
+.title-sec {
+  padding-top: 4.5rem;
+}
+/* navigation bar */
+
+
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+#title .nav-item {
+  padding-left: 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+}
+
+.features-box {
+  text-align: center;
+}
+
+.features-icon {
+  color: #937DC2;
+  margin-bottom: 1.25rem;
+}
+
+.features-icon:hover {
+  color: #3f588f;
+}
+
+/* prodoucts section */
+
+#products {
+  background-color: #3f588f;
+  text-align: center;
+  color: white;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+.product-img {
+  height: 300px;
+  border-radius: 5%;
+  padding-bottom: 1%;
+}
+#products h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+/* pricing */
+
+#services {
+  padding: 100px 100px;
+  text-align: center;
+}
+
+.services-col {
+  padding: 3% 2%;
+}
+#services p{
+  text-align: left;
+}
+.card-body {
+  height: 250px;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 2% 0%;
+  background-color: #0d0d0d;
+  color: #fff;
+}
+#footer p {
+  color: #fff ;
+}
+#footer h5 {
+  color: #fff;
+}
+
+
+
+/* about html */
+
+.mission, .vision {
+  text-align: left;
+}
+
+#mission-vision h1 {
+  text-align: center;
+}
+#company-info h1 {
+  text-align: center;
+}
+
+
+/* team and management */
+#mission-vision {
+  background-color: #fff;
+}
+
+#mission-vision h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #0d0d0d;
+}
+#company-info {
+  background-color: #fff;
+}
+#company-info h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #0d0d0d;
+}
+
+#team-management {
+  text-align: center;
+  background-color: #fff;
+}
+.management-image {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+}
+
+#team-management h3 {
+  padding: 5% 0;
+  font-size: 1rem;
+  height: 50px;
+  font-weight: 500;
+  color: #0d0d0d;
+}
+
+#team-management h4 {
+  font-size: 1.2rem;
+  height: 50px;
+  font-weight: 500;
+  color: #0d0d0d;
+}
+#team-management p {
+  height: 175px;
+}
+.management-container {
+  padding-bottom: 5%;
+}
+#team-management p {
+  text-align: left;
+}
+@media (max-width: 900px) {
+  #title {
+    text-align: center;
+  }
+}
